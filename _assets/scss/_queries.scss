@@ -1,0 +1,212 @@
+// 1600 and higher
+@media all and (min-width: 88em) {
+    body {
+        font-size: 1.5vw;
+    }
+}
+
+// 1216 to 1600
+@media all and (min-width: 76em) {
+    body {
+        font-size: 1.3vw;
+    }
+
+    article {
+        flex: 1 0 24.8%;
+        max-width: 24.8%;
+        margin: .1%
+    }
+}
+
+// 1040 to 1216
+@media all and (min-width: 65em) and (max-width: 76em) {
+    body {
+        font-size: 1em;
+    }
+
+    article {
+        flex: 1 0 33.1%;
+        max-width: 33.1%;
+        margin: .1%
+    }
+}
+
+// 864 to 1040
+@media all and (min-width: 54em) and (max-width: 65em) {
+    body {
+        font-size: 1em;
+    }
+
+    article {
+        flex: 1 0 49%;
+        max-width: 49%;
+        margin: 0.5%;
+    }
+}
+
+// 640 to 860
+@media all and (min-width: 40em) and (max-width: 54em) {
+    body {
+        font-size: 1em;
+    }
+
+    article {
+        flex: 1 0 49%;
+        max-width: 49%;
+        margin: 0.5%;
+        &:first-of-type {
+            flex: 1 0 99%;
+            max-width: 99%;
+        }
+    }
+}
+
+@media all and (min-width: 10em) and (max-width: 40em) {
+    body {
+        font-size: 4.4vw;
+        background: $white;
+    }
+
+    p {
+        line-height: 1.3em;
+    }
+
+    header {
+        height: 15vw;
+        margin: 0;
+        background: hsla(0, 0%, 100%, 0.9);
+        box-shadow: 0 0 6px 0 hsla(0, 0%, 40%, 0.6);
+    }
+
+    .header-logo {
+        width: 45vw;
+        margin-left: -18px;
+    }
+
+    .telephone {
+        margin: 0 1em 0;
+    }
+
+    .main-nav {
+        box-sizing: content-box; //handles the nav overshoot
+        width: 100vw;
+        height: 100vh;
+        padding: 1em 8em 1em 1em;
+        background: $grey_darker;
+        transform: translate(100%, 0%);
+        transition: transform .6s $small_ease; //handles the exit animation
+        & ul {
+            margin-right: 6em;
+        }
+        & a {
+            padding: 5px 7px;
+            &:active {
+                border-style: none;
+            }
+        }
+        & a.active {
+            border-style: none;
+        }
+        & a:after {
+            display: none;
+        }
+    }
+
+    .nav-logo-small {
+        display: block;
+        height: 45px;
+        margin: 0 0 15px -1px;
+    }
+
+    .main-nav-open {
+        transform: translate(0, 0);
+        transition: transform .6s $big_ease; //handles the entrance animation
+        // filter: drop-shadow(0 0 6px $grey_mid);
+    }
+
+    .nav-panel-button {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 82px;
+        height: 60px;
+        background: url('../../dist/gfx/icons.svg') no-repeat;
+        background-color: $grey_lighter;
+        background-position: 7px 13px;
+        background-size: 633px;
+        border: none;
+        border-top-left-radius: 4px;
+        transition: background-position $link_ease, background-color $link_ease;
+        z-index: 200;
+
+    }
+
+    .nav-panel-button-open {
+        background-position: -70px 13px;
+        background-size: 633px;
+    }
+
+    main {
+        position: relative;
+        width: 100vw;
+        margin-left: 0;
+        padding: .6em 0.4em 0;
+        border-left: 0;
+    }
+
+    article {
+        flex: 1 0 100%;
+        margin-bottom: .5em;
+        padding: 0 0.5em 1em;
+        &:first-of-type {
+            flex: 1 0 100%;
+            max-width: 100%;
+        }
+        &:last-of-type {
+            flex-direction: column;
+            margin-bottom: 3em;
+        }
+        & img {
+            max-width: 100%;
+        }
+    }
+
+    .article-form {
+        margin-top: 1em;
+        padding: 0 1em;
+    }
+
+    .page-title {
+        font-family: inherit;
+        font-size: 1.4em;
+        color: $black;
+    }
+
+    h1, h2, h3, h4 {
+        font-weight: 400;
+        min-height: initial;
+    }
+
+    h3 {
+        margin: -10px 0;
+    }
+
+    .big404 {
+        height: 37vh;
+        margin-bottom: 1em;
+    }
+
+    .cd-top {
+        bottom: 0;
+        left: 0;
+        width: 82px;
+        border-radius: 0 4px 0 0;
+        background: $grey_lighter;
+        transform: translateX(-100%);
+    }
+
+    .cd-is-visible {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "dir": "ltr",
+    "lang": "en-GB",
+    "name": "Mullstar",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "/",
+    "short_name": "Mullstar",
+    "theme_color": "#F42A2A",
+    "description": "We are a Glasgow company supplying in-car multimedia entertainment systems, Bluetooth integration, GPS navigation, alarms, dash cams, tracking and security. We also carry out auto electrical work for all types of vehicles. Phone 0141 429 1112",
+    "orientation": "any",
+    "background_color": "#808080",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "32x32 16x16"
+        },
+        {
+            "src": "favicons/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "114x114"
+        }
+    ]
+}

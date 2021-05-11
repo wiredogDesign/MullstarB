@@ -1,0 +1,38 @@
+a,
+article,
+aside,
+body,
+button,
+div,
+dl,
+dt,
+footer,
+form, input, textarea,
+h1, h2, h3, h4,
+header,
+html,
+img,
+main,
+nav,
+p,
+section,
+ul, li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:focus {
+    outline: auto;
+}
+
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}

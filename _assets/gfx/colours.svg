@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 200">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#F15A24;}
+	.st1{fill:#63B743;}
+	.st2{fill:#CFD8DC;}
+	.st3{fill:#006064;}
+	.st4{fill:#40AD92;}
+]]>
+</style>
+<rect class="st3" width="150" height="200"/>
+<rect x="150" class="st4" width="150" height="200"/>
+<rect x="300" class="st1" width="150" height="200"/>
+<rect x="450" class="st0" width="150" height="200"/>
+<rect x="600" class="st2" width="150" height="200"/>
+</svg>

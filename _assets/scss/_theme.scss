@@ -1,0 +1,27 @@
+$transparent:   rgba(255, 255, 255, 0); // because safari cant render transparency properly
+$white:         hsl(0, 0%, 100%);
+$grey_lighter:  hsl(0, 0%, 96%);
+$grey_light:    hsl(0, 0%, 90%);
+$grey_mid:      hsl(0, 0%, 50%);
+$grey_dark:     hsl(0, 0%, 27%);
+$grey_darker:   hsl(0, 0%, 33%);
+$black:         hsl(0, 0%, 5%);
+
+$link_colour_dark:  hsl(16, 100%, 40%);
+$redorange:         hsl(0, 90%, 56%);
+$red:               hsl(347, 86%, 51%);
+$blue_light:        hsl(191, 23%, 86%);
+$blue_grey_light:   hsl(216, 14%, 93%);
+$creamy:            hsl(61, 59%, 84%);
+$green:             hsl(120, 20%, 51%);
+$amber:             hsl(53, 86%, 51%);
+
+
+$borders_d:     .12em solid $blue_light;
+$border-radii:  .4em;
+$border-radii-small:  .2em;
+
+// transitions
+$big_ease:      cubic-bezier(0.83, -0.72, 0, 2.02);
+$small_ease:    cubic-bezier(1, 0.2, 0, 1.25);
+$link_ease:     .4s ease;

@@ -1,0 +1,7 @@
+.mv-bar.mv-ui.mv-fixed {
+	position: fixed;
+	top: calc(100vh - 35px);
+	left: 0;
+	right: 0;
+	z-index: 10000;
+}

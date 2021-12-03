@@ -2,9 +2,9 @@
 	"article": [
 		{
 			"image": "https://mullstar.wiredog.co.uk/dist/img/smartrack.jpg",
-			"h1": "SmartTrak Cat 6",
-			"h2": "Our newest tracking product from Global Telemetrics",
-			"p": "We can now supply and install SmarTrack Protector Pro Global, supported by Global Telemetrics"
+			"Heading": "SmartTrak Cat 6",
+			"Sub Heading": "Our newest tracking product from Global Telemetrics",
+			"Body Text": "We can now supply and install SmarTrack Protector Pro Global, supported by Global Telemetrics"
 		}
 	]
 }

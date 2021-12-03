@@ -66,11 +66,7 @@
         </script>
         <script src="dist/js/yall.min.js"></script>
         <script>
-            document.addEventListener("DOMContentLoaded",
-                function () {
-                    yall()
-                }
-            );
+            document.addEventListener( "DOMContentLoaded", function () { yall() } );
         </script>
         <script src="dist/js/mavo.min.js"></script>
     </head>
@@ -187,18 +183,22 @@
                 <!-- <a class="telephone" href="tel:01414291112">call Mullstar</a> -->
             </article>
 
-            <article class="featured">
+            <article property="article" mv-multiple class="featured">
                 <div class="upper-flex">
                     <div class="img-container">
                         <img 
+                        mv-upload-path="dist/img"
+                        property="image"
                         class="lazy" 
                         src="dist/gfx/mullstar.svg" 
                         data-src=""
-                        alt="" />
+                        width="300px"
+                        height="300px"
+                        alt="[image description]" />
                     </div>
-                    <h1>header</h1>
-                    <h2>sub header</h2>
-                    <p>body text</p>
+                    <h1 property="h1">header</h1>
+                    <h2 property="h2">sub header</h2>
+                    <p property="p">body text</p>
                 </div>
                 <div class="lower-flex">
                     <a class="article-header-link animated-link" href="#">tell me more</a>

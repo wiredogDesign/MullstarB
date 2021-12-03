@@ -156,18 +156,18 @@ article {
         box-shadow: none;
       }
     }
-    // &:last-of-type {
-    //     flex: 1 0 100%;
-    //     min-width: 100%;
-    //     margin-top: 1em;
-    //     border: none;
-    //     background: $grey_lighter;
-    //     &:hover {
-    //         transform: none;
-    //         z-index: initial;
-    //         box-shadow: none;
-    //     }
-    // }
+    &:last-of-type {
+        flex: 1 0 100%;
+        min-width: 100%;
+        margin-top: 1em;
+        border: none;
+        background: $grey_lighter;
+        &:hover {
+            transform: none;
+            z-index: initial;
+            box-shadow: none;
+        }
+    }
 }
 
 .lower-flex {

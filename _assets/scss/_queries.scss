@@ -71,7 +71,7 @@
         line-height: 1.3em;
     }
 
-    header {
+    .top-header {
         height: 15vw;
         margin: 0;
         background: hsla(0, 0%, 100%, 0.9);
@@ -208,5 +208,12 @@
 
     .cd-is-visible {
         transform: translateX(0);
+    }
+
+    // hide Mavo edit bar 
+    .mv-bar.mv-ui:not(.mv-fixed) {
+        border-radius: .3em;
+        margin-bottom: 1em;
+        display: none;
     }
 }

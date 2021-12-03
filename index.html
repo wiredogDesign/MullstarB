@@ -71,68 +71,10 @@
                 }
             );
         </script>
-        <style>
-            .insta-container {
-                display: flex;
-                justify-content: space-between;
-                overflow: hidden
-            }
-
-            .insta-group-container {
-                display: inherit;
-                flex: 1 0 20%;
-                padding: 0 0.3%;
-                position: relative;
-            }
-
-            .insta-group-container a {
-                width: 100%;
-            }
-
-            .insta-article-wrapper {
-                padding: .4em .3em;
-                border: 1px solid hsl(0, 0%, 94%);
-                border-radius: .2em;
-            }
-
-            @media all and (min-width: 10em) and (max-width: 40em) {
-                .insta-group-container {
-                    flex: 1 0 33.3%;
-                    padding: 0 0.3%;
-                }
-            }
-
-            .insta-group-container p {
-                position: absolute;
-                top: 10px;
-                left: 10px;
-                z-index: 100;
-                padding: 0 5px;
-                color: white;
-                background: hsla(0, 0%, 0%, 0.50);
-                -webkit-appearance: initial;
-            }
-
-            .insta-group {
-                position: relative;
-            }
-
-            .insta-group:hover {
-                background: none;
-            }
-
-            .insta-group img {
-                margin: 0;
-                transition: transform .3s ease, border-radius .4s ease-out;
-            }
-
-            .insta-group img:hover {
-                transform: scale(0.94);
-            }
-        </style>
+        <script src="dist/js/mavo.min.js"></script>
     </head>
 
-    <body class="homepage">
+    <body  mv-app="mullstar" mv-storage="https://github.com/wiredogDesign/mullstarB/blob/mavo/mullstar.json" class="homepage">
         <button class="nav-panel-button" title="site navigation menu button"></button>
         <nav class="main-nav">
             <div class="nav-logo-small"></div>

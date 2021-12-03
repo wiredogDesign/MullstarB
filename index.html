@@ -10,6 +10,7 @@
         <meta name="robots" content="index, follow">
 
         <link rel="stylesheet" href="./dist/css/custom.min.css">
+        <link rel="stylesheet" href="./dist/css/mavo.min.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="favicons/apple-touch-icon.png">
@@ -74,7 +75,10 @@
         <script src="dist/js/mavo.min.js"></script>
     </head>
 
-    <body  mv-app="mullstar" mv-storage="https://github.com/wiredogDesign/mullstarB/blob/mavo/mullstar.json" class="homepage">
+    <body  
+    mv-app="mullstar" 
+    mv-storage="https://github.com/wiredogDesign/mullstarB/blob/mavo" 
+    class="homepage">
         <button class="nav-panel-button" title="site navigation menu button"></button>
         <nav class="main-nav">
             <div class="nav-logo-small"></div>
@@ -120,7 +124,7 @@
                 </li>
             </ul>
         </nav>
-        <header>
+        <header class="top-header">
             <a aria-label="homepage link" class="header-link" href="index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" role="presentation" class="header-logo"
                     viewBox="0 0 187.17 45.83">
@@ -177,7 +181,7 @@
             <a class="telephone" href="tel:01414291112">call us</a>
         </header>
         <main class="container" id="main_container">
-            <article>
+            <article class="main-header">
                 <h1 class="page-title">Mobile fitting in Glasgow and Central Scotland</h1>
                 <h2>Our mobile installations mean an easier life for you</h2>
                 <!-- <a class="telephone" href="tel:01414291112">call Mullstar</a> -->
@@ -186,122 +190,21 @@
             <article class="featured">
                 <div class="upper-flex">
                     <div class="img-container">
-                        <img class="lazy" src="dist/gfx/mullstar.svg" data-src="dist/gfx/smartrack_logo.png"
-                            alt="Global Telemetrics Logo" />
+                        <img 
+                        class="lazy" 
+                        src="dist/gfx/mullstar.svg" 
+                        data-src=""
+                        alt="" />
                     </div>
-                    <h1>SmartTrak Cat 6</h1>
-                    <h2>Our newest tracking product from Global Telemetrics</h2>
-                    <p>We can now supply and install SmarTrack Protector Pro Global, supported by <a
-                            href="http://www.globaltelemetrics.eu/" class="animated-link">Global Telemetrics</a></p>
+                    <h1>header</h1>
+                    <h2>sub header</h2>
+                    <p>body text</p>
                 </div>
                 <div class="lower-flex">
-                    <a class="article-header-link animated-link"
-                        href="stolen-vehicle-fleet-tracking-systems.html#featured-section">tell me more</a>
+                    <a class="article-header-link animated-link" href="#">tell me more</a>
                 </div>
             </article>
 
-            <article>
-                <div class="upper-flex">
-                    <div class="img-container">
-                        <img class="lazy" src="dist/gfx/mullstar.svg" data-src="dist/img/p_double.jpg"
-                            alt="Car Stereo and Entertainment Systems" />
-                    </div>
-                    <h1>Car Stereo</a></h1>
-                    <h2>Navigation, DAB &amp; Entertainment Systems</h2>
-                    <p>We supply and install car stereos and navigation from Pioneer, Kenwood and Alpine - and pretty
-                        much any other manufacturer.</p>
-                    <p>We can source just about any system. Let us know what you need.</p>
-                </div>
-                <div class="lower-flex">
-                    <a class="article-header-link animated-link" href="car-stereo-entertainment-systems.html">tell me
-                        more</a>
-                </div>
-            </article>
-
-            <article>
-                <div class="upper-flex">
-                    <div class="img-container">
-                        <img class="lazy" src="dist/gfx/mullstar.svg" data-src="dist/img/car_alarm_remote.jpg"
-                            alt="Car Alarms and Security" />
-                    </div>
-                    <h1>Car Alarms</h1>
-                    <h2>Immobilisers &amp; Stolen Vehicle Tracking</h2>
-                    <p>Make life harder for criminals - tighten your security with alarms from Mullstar.</p>
-                    <p>We can fit alarms, immobilisers and tracking systems to keep your car protected.</p>
-                </div>
-                <div class="lower-flex">
-                    <a class="article-header-link animated-link" href="vehicle-alarms-locking-systems.html">tell me
-                        more</a>
-                </div>
-            </article>
-
-            <article>
-                <div class="upper-flex">
-                    <div class="img-container">
-                        <img class="lazy" src="dist/gfx/mullstar.svg" data-src="dist/img/parrot_9200.jpg"
-                            alt="Parrot and Fiscon Bluetooth Integration" />
-                    </div>
-                    <h1>Bluetooth Integration</h1>
-                    <h2>Drive safely with Parrot &amp; Fiscon handsfree</h2>
-                    <p>Drive safely. Don't risk getting 6 points on your licence and a £200 fine.</p>
-                    <p>Those points and that fine increase dramatically if you're driving an HGV or other large PSV type
-                        vehicle.</p>
-                </div>
-                <div class="lower-flex">
-                    <a class="article-header-link animated-link"
-                        href="parrot-fiscon-integrated-bluetooth-hands-free-car-kits.html">tell me more</a>
-                </div>
-            </article>
-
-            <article>
-                <div class="upper-flex">
-                    <div class="img-container">
-                        <img class="lazy" src="dist/gfx/mullstar.svg" data-src="dist/img/brigade_backsense.jpg"
-                            alt="Brigade Rearview Cameras" />
-                    </div>
-                    <h1>Safety Camera Systems</h1>
-                    <h2>Blackspot Monitoring &amp; Incident Recording</h2>
-                    <p>It's a requirement that HGVs are fitted with monitoring cameras to minimise vision blackspots,
-                        while incident recording systems can help with your accident claim if you are not at fault.</p>
-                    <p>You can get more info on some of these issues from the <a class="animated-link" rel="noopener"
-                            href="http://www.hse.gov.uk/workplacetransport/information/reversing.htm"
-                            title="Health and Safety Executive (HSE) Website">HSE website</a></p>
-                </div>
-                <div class="lower-flex">
-                    <a class="article-header-link animated-link" href="rear-view-incident-recording-cameras.html">tell me
-                        more</a>
-                </div>
-            </article>
-
-            <article>
-                <div class="upper-flex">
-                    <div class="img-container">
-                        <img class="lazy" src="dist/gfx/mullstar.svg" data-src="dist/img/cruise_control.jpg"
-                            alt="Aftermarket Cruise Control" />
-                    </div>
-                    <h1>Comfort Upgrades</h1>
-                    <h2>Cruise Control, Electric Windows, Heated Seats and Parking Sensors</h2>
-                    <p>We can bring your vehicle up to your spec with aftermarket add-ons.</p>
-                    <p>Mullstar can install the missing pieces to make your car a better place to be.</p>
-                </div>
-                <div class="lower-flex">
-                    <a class="article-header-link animated-link"
-                        href="heated-seats-electric-windows-cruise-control-add-ons.html">tell me more</a>
-                </div>
-            </article>
-            
-            <article>
-                <footer class="copyright">
-                    <div>
-                        <span>&copy;</span>
-                        <?php date_default_timezone_set ( "Europe/London" ); echo date('Y') ?>&nbsp;<span>Mullstar</span>
-                    </div>
-                    <span>|</span>
-                    <div>
-                        <span>0141 429 1112</span>
-                    </div>
-                </footer>
-            </article>
         </main>
         <a tabindex="-1" aria-hidden="true" href="" title="scroll to page top" class="cd-top">&uparrow;</a>
         <script src="dist/js/jquery_341.min.js"></script>

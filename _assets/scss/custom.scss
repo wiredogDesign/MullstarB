@@ -15,7 +15,7 @@ body {
 }
 
 
-header {
+.top-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -144,7 +144,7 @@ article {
     &:hover {
         background-color: whitesmoke;
     }
-    &:first-of-type {
+    &.main-header {
       flex: 1 1 100%;
       max-width: 100%;
       padding: 0;
@@ -156,18 +156,18 @@ article {
         box-shadow: none;
       }
     }
-    &:last-of-type {
-        flex: 1 0 100%;
-        min-width: 100%;
-        margin-top: 1em;
-        border: none;
-        background: $grey_lighter;
-        &:hover {
-            transform: none;
-            z-index: initial;
-            box-shadow: none;
-        }
-    }
+    // &:last-of-type {
+    //     flex: 1 0 100%;
+    //     min-width: 100%;
+    //     margin-top: 1em;
+    //     border: none;
+    //     background: $grey_lighter;
+    //     &:hover {
+    //         transform: none;
+    //         z-index: initial;
+    //         box-shadow: none;
+    //     }
+    // }
 }
 
 .lower-flex {

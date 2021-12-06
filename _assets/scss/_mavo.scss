@@ -45,3 +45,15 @@ button.mv-close:hover {
 .mv-message.mv-deleted button:not([class]) {
 	margin-left: 1.3em;
 }
+
+[mv-app]
+[mv-mode="edit"]
+.mv-empty, 
+[mv-app]
+[mv-mode="edit"] 
+.mv-empty {
+	opacity: 0.7;
+	background: #5b5b5b;
+	border: 3px solid red;
+	color: white;
+}

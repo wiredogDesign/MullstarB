@@ -460,6 +460,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/brigade_backsense.jpg" : {
+      "ft" : 16384,
+      "iS" : 19547,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/brigade_backsense.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/car_alarm_remote.jpg" : {
       "ft" : 16384,
       "iS" : 14089,
@@ -473,12 +486,38 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/cruise_control.jpg" : {
+      "ft" : 16384,
+      "iS" : 22549,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/cruise_control.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/p_double.jpg" : {
       "ft" : 16384,
       "iS" : 40899,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/img\/p_double.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/parrot_asteroid.jpg" : {
+      "ft" : 16384,
+      "iS" : 18922,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/parrot_asteroid.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

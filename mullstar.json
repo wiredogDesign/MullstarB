@@ -18,7 +18,7 @@
 			"Image": "https://mullstar.wiredog.co.uk/dist/img/smartrack.jpg",
 			"Heading": "SmartTrak Cat 6",
 			"Sub Heading": "Our newest tracking product from Global Telemetrics",
-			"Body Text": "We can now supply and install SmarTrack Protector Pro Global, supported by <a title=\"external link to Global Telemetrics\" href=\"http://www.globaltelemetrics.eu/\" target=\"_blank\" rel=\"noopener\">Global Telemetrics</a>.",
+			"Body Text": "We can now supply and install SmarTrack Protector Pro Global, supported by <a title=\"external link to Global Telemetrics\" href=\"http://www.globaltelemetrics.eu/\">Global Telemetrics</a>.",
 			"Internal Link": "stolen-vehicle-fleet-tracking-systems.html"
 		},
 		{
@@ -27,6 +27,20 @@
 			"Sub Heading": "Drive safely with Parrot & Fiscon handsfree",
 			"Body Text": "Drive safely. Don't risk getting 6 points on your licence and a &pound;200 fine.Those points and that fine increase dramatically if you're driving an HGV or other large PSV type vehicle",
 			"Internal Link": "parrot-fiscon-integrated-bluetooth-hands-free-car-kits.html"
+		},
+		{
+			"Image": "https://mullstar.wiredog.co.uk/dist/img/brigade_backsense.jpg",
+			"Heading": "Safety Camera Systems",
+			"Sub Heading": "Blackspot Monitoring & Incident Recording",
+			"Body Text": "It's a requirement that HGVs are fitted with monitoring cameras to minimise vision blackspots, while incident recording systems can help with your accident claim if you are not at fault.You can get more info on some of these issues from the <a class=\"animated-link\" title=\"Health and Safety Executive (HSE) Website\" href=\"http://www.hse.gov.uk/workplacetransport/information/reversing.htm\" rel=\"noopener\">HSE website</a>",
+			"Internal Link": "rear-view-incident-recording-cameras.html"
+		},
+		{
+			"Image": "https://mullstar.wiredog.co.uk/dist/img/cruise_control.jpg",
+			"Heading": "Comfort Upgrades",
+			"Sub Heading": "Cruise Control, Electric Windows, Heated Seats and Parking Sensors",
+			"Body Text": "We can bring your vehicle up to your spec with aftermarket add-ons.Mullstar can install the missing pieces to make your car a better place to be.",
+			"Internal Link": "heated-seats-electric-windows-cruise-control-add-ons.html"
 		}
 	]
 }

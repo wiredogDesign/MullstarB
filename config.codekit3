@@ -108,6 +108,17 @@
       "sC" : 0,
       "tS" : 0
     },
+    "\/_assets\/js\/mavo-importhtml.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/mavo_import_html-min.js",
+      "oF" : 2,
+      "sC" : 0,
+      "tS" : 0
+    },
     "\/_assets\/mavo" : {
       "ft" : 65536,
       "oA" : 1,

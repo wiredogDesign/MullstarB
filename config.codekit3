@@ -7,94 +7,18 @@
       "uuidString" : "45585329-59A5-4F24-B907-17FD6F63047E"
     }
   ],
-  "creatorBuild" : "34264",
+  "creatorBuild" : "34214",
   "files" : {
-    "\/_assets\/gfx\/colours.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_assets\/gfx\/colours.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/_assets\/gfx\/favicon.ai" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_assets\/gfx\/favicon.ai",
+    "\/_assets\/gfx" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/_assets\/gfx",
       "oF" : 0
     },
-    "\/_assets\/gfx\/mullstar.ai" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_assets\/gfx\/mullstar.ai",
-      "oF" : 0
-    },
-    "\/_assets\/gfx\/mullstar.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_assets\/gfx\/mullstar.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/_assets\/gfx\/old_car.ai" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_assets\/gfx\/old_car.ai",
-      "oF" : 0
-    },
-    "\/_assets\/gfx\/old_car.png" : {
-      "ft" : 32768,
-      "iS" : 11625,
-      "oA" : 0,
-      "oAP" : "\/_assets\/gfx\/old_car.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/_assets\/gfx\/old_car.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_assets\/gfx\/old_car.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/_assets\/gfx\/rusted_car.png" : {
-      "ft" : 32768,
-      "iS" : 1330690,
-      "oA" : 0,
-      "oAP" : "\/_assets\/gfx\/rusted_car.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/_assets\/img\/image_template.psd" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_assets\/img\/image_template.psd",
+    "\/_assets\/img" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/_assets\/img",
       "oF" : 0
     },
     "\/_assets\/js\/custom.js" : {
@@ -216,7 +140,7 @@
       "sct" : 0
     },
     "\/_assets\/scss\/custom.scss" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "co" : 0,
       "dP" : 10,
@@ -318,236 +242,17 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/dist\/gfx\/403.jpg" : {
-      "ft" : 16384,
-      "iS" : 28448,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/403.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+    "\/dist\/gfx" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/gfx",
+      "oF" : 0
     },
-    "\/dist\/gfx\/404.jpg" : {
-      "ft" : 16384,
-      "iS" : 42134,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/404.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/blackvue_logo.png" : {
-      "ft" : 32768,
-      "iS" : 9586,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/blackvue_logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/close.png" : {
-      "ft" : 32768,
-      "iS" : 280,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/close.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/icons.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/gfx\/icons.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/gfx\/mullstar.png" : {
-      "ft" : 32768,
-      "iS" : 25023,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/mullstar.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/next.png" : {
-      "ft" : 32768,
-      "iS" : 1350,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/next.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/ott-logo.png" : {
-      "ft" : 32768,
-      "iS" : 6269,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/ott-logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/prev.png" : {
-      "ft" : 32768,
-      "iS" : 1360,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/prev.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/smartrack_logo.jpg" : {
-      "ft" : 16384,
-      "iS" : 316155,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/smartrack_logo.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/smartrack_logo.png" : {
-      "ft" : 32768,
-      "iS" : 8787,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/smartrack_logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/target_blue_eye.png" : {
-      "ft" : 32768,
-      "iS" : 36473,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/target_blue_eye.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/brigade_backsense.jpg" : {
-      "ft" : 16384,
-      "iS" : 19547,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/brigade_backsense.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/car_alarm_remote.jpg" : {
-      "ft" : 16384,
-      "iS" : 14089,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/car_alarm_remote.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/cruise_control.jpg" : {
-      "ft" : 16384,
-      "iS" : 22549,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/cruise_control.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/p_double.jpg" : {
-      "ft" : 16384,
-      "iS" : 40899,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/p_double.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/parrot_asteroid.jpg" : {
-      "ft" : 16384,
-      "iS" : 18922,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/parrot_asteroid.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/smartrack.jpg" : {
-      "ft" : 16384,
-      "iS" : 29226,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/smartrack.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+    "\/dist\/img" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/img",
+      "oF" : 0
     },
     "\/dist\/js\/custom-min.js" : {
       "bF" : 0,
@@ -604,12 +309,10 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dist\/sfx\/buttonclick.m4a" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/sfx\/buttonclick.m4a",
+    "\/dist\/sfx" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/sfx",
       "oF" : 0
     },
     "\/favicon.ico" : {
@@ -620,39 +323,11 @@
       "oAP" : "\/favicon.ico",
       "oF" : 0
     },
-    "\/favicons\/apple-touch-icon.png" : {
-      "ft" : 32768,
-      "iS" : 6445,
-      "oA" : 0,
-      "oAP" : "\/favicons\/apple-touch-icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/favicons\/favicon.png" : {
-      "ft" : 32768,
-      "iS" : 3642,
-      "oA" : 0,
-      "oAP" : "\/favicons\/favicon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/favicons\/manifest.json" : {
-      "ft" : 524288,
+    "\/favicons" : {
+      "ft" : 65536,
       "oA" : 1,
-      "oAP" : "\/favicons\/manifest-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
+      "oAP" : "\/favicons",
+      "oF" : 0
     },
     "\/heated-seats-electric-windows-cruise-control-add-ons.html" : {
       "cB" : 0,
@@ -1731,7 +1406,7 @@
         "active" : 0
       },
       "no-nonoctal-decimal-escape" : {
-        "active" : 0
+        "active" : 1
       },
       "no-obj-calls" : {
         "active" : 1
@@ -1895,7 +1570,7 @@
         "optionString" : "{'enforceForOrderingRelations': false}"
       },
       "no-unsafe-optional-chaining" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : "{'disallowArithmeticOperators': false}"
       },
       "no-unused-expressions" : {
@@ -1904,9 +1579,6 @@
       },
       "no-unused-labels" : {
         "active" : 1
-      },
-      "no-unused-private-class-members" : {
-        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
@@ -2207,7 +1879,7 @@
       "combineImports" : 0,
       "cssoStyle" : 0,
       "purgeCSSStyle" : 0,
-      "shouldRunAutoprefixer" : 0,
+      "shouldRunAutoprefixer" : 1,
       "shouldRunBless" : 0,
       "sourceMapStyle" : 0
     },
@@ -2366,9 +2038,9 @@
       "autoOutputPathStyle" : 0,
       "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 2,
+      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 3,
+      "outputStyle" : 0,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -2481,7 +2153,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : ".idea,\/_assets\/mavo,_cache,\/storage\/framework\/sessions,node_modules,log,cache,_logs,logs",
+    "skippedFoldersString" : "log,_cache,\/_assets\/img,.idea,\/dist\/img,\/storage\/framework\/sessions,\/_assets\/mavo,logs,\/_assets\/gfx,\/favicons,cache,node_modules,_logs,\/dist\/gfx,\/dist\/sfx",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,

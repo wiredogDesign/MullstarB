@@ -276,13 +276,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dist\/js\/mavo_import_html-min.js" : {
+    "\/dist\/js\/mavo-html-import-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dist\/js\/mavo_import_html-min-min.js",
+      "oAP" : "\/dist\/js\/mavo-html-import-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

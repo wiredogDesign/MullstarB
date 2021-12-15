@@ -1,17 +1,3 @@
-// counts the remaining characters availble in the textarea
-// and applies a warning class if the count is below 25
-var maxLength = 350;
-$("textarea").keyup(function() {
-    var a = $(this).val().length;
-    (a = maxLength - a),
-        $(".chars-remain").text(a),
-        a < 25
-            ? $(".chars-remain").addClass("char-remain-warning")
-            : ($(".chars-remain").addClass("char-remain-ok"),
-              $(".chars-remain").removeClass("char-remain-warning"));
-});
-
-
 // click to show the nav menu on mobile
 const menuButton = document.querySelector('.nav-panel-button');
 const mainNav = document.querySelector('.main-nav');
@@ -33,6 +19,17 @@ window.addEventListener('scroll', () => {
 	}
 });
 
+// shrink the logo after scrolling 100px
+window.addEventListener('scroll', () => {
+	const headerLogo = document.querySelector('.header-logo');
+	
+	if (window.scrollY > 100) {
+		headerLogo.classList.add('shrink')
+	} else {
+		headerLogo.classList.remove('shrink')
+	}
+}); 
+
 // clicky to scroll topmost
 function scrollToTop() {
 	window.scroll({
@@ -41,16 +38,3 @@ function scrollToTop() {
 			behavior: 'smooth'
 	});
 }
-
-
-// reduce logo size when scrolled
-$(document).on('scroll', function() {
-	if
-  		($(document).scrollTop() > 100) {
-			$('.header-logo').addClass('shrink');
-		}
-	else
-	{
-		$('.header-logo').removeClass('shrink');
-	}
-});

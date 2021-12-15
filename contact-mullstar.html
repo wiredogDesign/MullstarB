@@ -63,12 +63,8 @@
                 "priceRange": "££"
             }
         </script>
-        <script src="dist/js/yall-min.js"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                yall();
-            });
-        </script>
+        <!-- 
+         -->
 
         <style>
             .footer-right {
@@ -221,8 +217,8 @@
                     <div class="field-holder contact-comment">
                         <label for="contactcomments">what can we do for you ?</label>
                         <textarea title="Ask us something - no more than 350 characters though" required
-                            id="contactcomments" cols="0" rows="0" wrap="soft" maxlength="350"></textarea>
-                        <div class="count-container"><span class="chars-remain">350</span><span> characters
+                            id="contactcomments" cols="0" rows="0" wrap="soft" maxlength="200"></textarea>
+                        <div class="count-container"><span class="chars-remain">200</span><span> characters
                                 remaining</span></div>
                     </div>
 
@@ -244,7 +240,7 @@
             </article>
         </main>
         <button tabindex="-1" aria-hidden="true" title="scroll to page top" class="cd-top" onclick="scrollToTop()">&uparrow;</button>
-        <script src="dist/js/jquery341-min.js"></script>
+        
         <script src="dist/js/custom-min.js"></script>
     </body>
     <script>
@@ -255,6 +251,20 @@
         }
         infoPanelButton.addEventListener("click", toggleContactInfoPanel);
         infoPanel.addEventListener("click", toggleContactInfoPanel);
+    </script>
+
+    <script>
+        // counts the remaining characters availble in the textarea
+        // and applies warning classes if the count is below 51 and 21
+        const maxLength = 200;
+        const messageBox = document.querySelector('textarea');
+        const textRemaining = document.querySelector('.chars-remain');
+        messageBox.addEventListener('keyup', function() {
+            var textCount = messageBox.value.length;
+            textRemaining.innerText = maxLength - textCount;
+            textRemaining.classList.toggle('chars-remain-orange', textRemaining.innerText < 51);
+            textRemaining.classList.toggle('chars-remain-red', textRemaining.innerText < 21);
+        }); 
     </script>
 
 </html>

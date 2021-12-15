@@ -7,7 +7,7 @@
       "uuidString" : "45585329-59A5-4F24-B907-17FD6F63047E"
     }
   ],
-  "creatorBuild" : "34214",
+  "creatorBuild" : "34264",
   "files" : {
     "\/_assets\/gfx" : {
       "ft" : 65536,
@@ -1579,6 +1579,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,

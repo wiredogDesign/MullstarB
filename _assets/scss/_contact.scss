@@ -46,8 +46,8 @@
     //     border-bottom: 2px solid $amber !important;
     // }
     &:valid {
-        background: $green;
-        color: $white;
+        // color: $green;
+        // color: $white;
     }
 }
 
@@ -149,7 +149,19 @@
     text-align: right;
 }
 
-.char-remain-warning {
+.chars-remain {
+    font-size: 1.4em;
+    color: green;
+    border: 1px dashed;
+    padding: 0 5px;
+}
+
+.chars-remain-orange {
+    color: rgb(255, 98, 0);
+    font-weight: bold;
+}
+
+.chars-remain-red {
     color: red;
     font-weight: bold;
 }

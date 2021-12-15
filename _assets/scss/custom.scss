@@ -347,9 +347,6 @@ summary {
 }
 
 .cd-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     bottom: 7px;
     left: calc(20vw - 70px);
@@ -359,23 +356,12 @@ summary {
     background: transparent;
     font-size: 2em;
     font-weight: 700;
-    text-decoration: none;
+    // text-decoration: none;
+    border: 2px solid;
     border-radius: $border-radii-small;
     opacity: 0;
-    transform: rotate(90deg);
+    // transform: rotate(90deg);
     z-index: 10000;
-}
-
-.cd-is-visible {
-    opacity: 1;
-    transform: rotate(0);
-}
-
-.cd-top.cd-is-visible:hover {
-    transform: scale(1.02);
-    filter: drop-shadow(-1px 5px 4px $grey_mid);
-    color: inherit;
-    background-color: transparent;
 }
 
 // because IE11 is what it is

@@ -12,36 +12,36 @@ $("textarea").keyup(function() {
 });
 
 
-// controls the mobile navigation
-$(".nav-panel-button").click(function() {
-    $(".main-nav").toggleClass("main-nav-open"),
-        $(".nav-panel-button").toggleClass("nav-panel-button-open");
+// click to show the nav menu on mobile
+const menuButton = document.querySelector('.nav-panel-button');
+const mainNav = document.querySelector('.main-nav');
+
+menuButton.addEventListener('click', () => {
+	mainNav.classList.toggle('main-nav-open');
+	menuButton.classList.toggle('nav-panel-button-open');
+})
+
+// show the cd-top button after scrolling 600px
+window.addEventListener('scroll', () => {
+	const cdtop = document.querySelector('.cd-top');
+  
+	if (window.scrollY > 600) {
+		cdtop.style.opacity='1';
+	} 
+	else {
+		cdtop.style.opacity='0';
+	}
 });
 
-
-// scroll to top
-$(document).ready(function($) {
-	// browser window scroll (in pixels) after which the "back to top" link is shown
-	var offset = 600,
-		//duration of the top scrolling animation (in ms)
-		scroll_top_duration = 700,
-		//grab the "back to top" link
-		$back_to_top = $('.cd-top');
-
-	//hide or show the "back to top" link
-	$(window).scroll(function(){
-		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible');
+// clicky to scroll topmost
+function scrollToTop() {
+	window.scroll({
+			top: 0,
+			left: 0,
+			behavior: 'smooth'
 	});
+}
 
-	//smooth scroll to top
-	$back_to_top.on('click', function(event){
-		event.preventDefault();
-		$('body, html').animate({
-			scrollTop: 0 ,
-		 	}, scroll_top_duration
-		);
-	});
-});
 
 // reduce logo size when scrolled
 $(document).on('scroll', function() {

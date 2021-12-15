@@ -19,13 +19,6 @@ $(".nav-panel-button").click(function() {
 });
 
 
-// adds active class to the main nav link if it equals the page url after stripping the domain
-$(".main-nav a")
-    .filter(function() {
-        return this.href == location.href.replace(/#.*/, "");
-    })
-    .addClass("active");
-
 // scroll to top
 $(document).ready(function($) {
 	// browser window scroll (in pixels) after which the "back to top" link is shown

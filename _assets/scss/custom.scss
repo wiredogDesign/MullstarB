@@ -356,11 +356,10 @@ summary {
     background: transparent;
     font-size: 2em;
     font-weight: 700;
-    // text-decoration: none;
     border: 2px solid;
     border-radius: $border-radii-small;
     opacity: 0;
-    // transform: rotate(90deg);
+    transition: opacity 0.2s ease;
     z-index: 10000;
 }
 

@@ -110,9 +110,9 @@ body {
     display: none;
 }
 
-.animated_link {
-    animation: nav_animate .3s ease;
-}
+// .animated_link {
+//     animation: nav_animate .3s ease;
+// }
 
 main {
     display: flex;
@@ -285,10 +285,11 @@ a {
     &:hover {
         background-color: $link_colour_dark;
         color: $white;
+        animation: nav_animate .3s ease;
     }
 }
 
-.animated-link {
+a {
     &:hover::before {
         transform: scaleX(1);
     }
@@ -305,6 +306,13 @@ a {
         transform-origin: 0 50%;
         transition: transform .3s $small_ease;
     }
+}
+
+a.no-animation:before {
+    animation: none;
+    transform: none;
+    background: initial;
+    color: initial;
 }
 
 .article-header-link {

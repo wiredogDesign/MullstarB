@@ -3,50 +3,50 @@
 		{
 			"Image": "https://mullstar.wiredog.co.uk/dist/img/p_double.jpg",
 			"Heading": "Car Stereo",
-			"Sub Heading": "Navigation, DAB & Entertainment Systems",
-			"Body Text": "We supply and install car stereos and navigation from Pioneer, Kenwood and Alpine - and pretty much any other manufacturer. We can source just about any system. Let us know what you need.",
-			"Internal Link": "car-stereo-entertainment-systems.html",
-			"Image Description": "Double DIN radio showing driving directions on map"
+			"SubHeading": "Navigation, DAB & Entertainment Systems",
+			"BodyText": "We supply and install car stereos and navigation from Pioneer, Kenwood and Alpine - and pretty much any other manufacturer. We can source just about any system. Let us know what you need.",
+			"InternalLink": "car-stereo-entertainment-systems.html",
+			"ImageDescription": "Double DIN radio showing driving directions on map"
 		},
 		{
 			"Image": "https://mullstar.wiredog.co.uk/dist/img/car_alarm_remote.jpg",
 			"Heading": "Car Alarms",
-			"Sub Heading": "Immobilisers & Stolen Vehicle Tracking",
-			"Body Text": "Make life harder for criminals - tighten your security with alarms from Mullstar. We can fit alarms, immobilisers and tracking systems to keep your car protected.",
-			"Internal Link": "vehicle-alarms-locking-systems.html",
-			"Image Description": "Car alarm fob and key"
+			"SubHeading": "Immobilisers & Stolen Vehicle Tracking",
+			"BodyText": "Make life harder for criminals - tighten your security with alarms from Mullstar. We can fit alarms, immobilisers and tracking systems to keep your car protected.",
+			"InternalLink": "vehicle-alarms-locking-systems.html",
+			"ImageDescription": "Car alarm fob and key"
 		},
 		{
 			"Image": "https://mullstar.wiredog.co.uk/dist/img/smartrack.jpg",
 			"Heading": "SmartTrak Cat 6",
-			"Sub Heading": "Our newest tracking product from Global Telemetrics",
-			"Body Text": "We can now supply and install SmarTrack Protector Pro Global, supported by <a title=\"external link to Global Telemetrics\" href=\"http://www.globaltelemetrics.eu/\">Global Telemetrics</a>.",
-			"Internal Link": "stolen-vehicle-fleet-tracking-systems.html",
-			"Image Description": "Computer showing a map with location information"
+			"SubHeading": "Our newest tracking product from Global Telemetrics",
+			"BodyText": "We can now supply and install SmarTrack Protector Pro Global, supported by <a title=\"external link to Global Telemetrics\" href=\"http://www.globaltelemetrics.eu/\">Global Telemetrics</a>.",
+			"InternalLink": "stolen-vehicle-fleet-tracking-systems.html",
+			"ImageDescription": "Computer showing a map with location information"
 		},
 		{
 			"Image": "https://mullstar.wiredog.co.uk/dist/img/parrot_asteroid.jpg",
 			"Heading": "Bluetooth Integration",
-			"Sub Heading": "Drive safely with Parrot & Fiscon handsfree",
-			"Body Text": "Drive safely. Don't risk getting 6 points on your licence and a &pound;200 fine.Those points and that fine increase dramatically if you're driving an HGV or other large PSV type vehicle",
-			"Internal Link": "parrot-fiscon-integrated-bluetooth-hands-free-car-kits.html",
-			"Image Description": "Double DIN Parrot Bluetooth radio"
+			"SubHeading": "Drive safely with Parrot & Fiscon handsfree",
+			"BodyText": "Drive safely. Don't risk getting 6 points on your licence and a &pound;200 fine.Those points and that fine increase dramatically if you're driving an HGV or other large PSV type vehicle",
+			"InternalLink": "parrot-fiscon-integrated-bluetooth-hands-free-car-kits.html",
+			"ImageDescription": "Double DIN Parrot Bluetooth radio"
 		},
 		{
 			"Image": "https://mullstar.wiredog.co.uk/dist/img/brigade_backsense.jpg",
 			"Heading": "Safety Camera Systems",
-			"Sub Heading": "Blackspot Monitoring & Incident Recording",
-			"Body Text": "It's a requirement that HGVs are fitted with monitoring cameras to minimise vision blackspots, while incident recording systems can help with your accident claim if you are not at fault.You can get more info on some of these issues from the <a class=\"animated-link\" title=\"Health and Safety Executive (HSE) Website\" href=\"http://www.hse.gov.uk/workplacetransport/information/reversing.htm\" rel=\"noopener\">HSE website</a>",
-			"Internal Link": "rear-view-incident-recording-cameras.html",
-			"Image Description": "Graphic of large truck showing reversing radar field"
+			"SubHeading": "Blackspot Monitoring & Incident Recording",
+			"BodyText": "It's a requirement that HGVs are fitted with monitoring cameras to minimise vision blackspots, while incident recording systems can help with your accident claim if you are not at fault.You can get more info on some of these issues from the <a class=\"animated-link\" title=\"Health and Safety Executive (HSE) Website\" href=\"http://www.hse.gov.uk/workplacetransport/information/reversing.htm\" rel=\"noopener\">HSE website</a>",
+			"InternalLink": "rear-view-incident-recording-cameras.html",
+			"ImageDescription": "Graphic of large truck showing reversing radar field"
 		},
 		{
 			"Image": "https://mullstar.wiredog.co.uk/dist/img/cruise_control.jpg",
 			"Heading": "Comfort Upgrades",
-			"Sub Heading": "Cruise Control, Electric Windows, Heated Seats and Parking Sensors",
-			"Body Text": "We can bring your vehicle up to your spec with aftermarket add-ons.Mullstar can install the missing pieces to make your car a better place to be.",
-			"Internal Link": "heated-seats-electric-windows-cruise-control-add-ons.html",
-			"Image Description": "Cruise controller mounted on steering column"
+			"SubHeading": "Cruise Control, Electric Windows, Heated Seats and Parking Sensors",
+			"BodyText": "We can bring your vehicle up to your spec with aftermarket add-ons.Mullstar can install the missing pieces to make your car a better place to be.",
+			"InternalLink": "heated-seats-electric-windows-cruise-control-add-ons.html",
+			"ImageDescription": "Cruise controller mounted on steering column"
 		}
 	]
 }

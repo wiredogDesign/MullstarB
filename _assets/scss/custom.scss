@@ -195,13 +195,13 @@ article {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    background: $redorange;
-    color: $black;
+    background: $link_colour_dark;
+    color: $white;
     border-radius: $border-radii-small;
     transition: all 0.4s ease; 
     &:hover {
         transform: scale(1.02);
-        filter: drop-shadow(-1px 5px 4px $grey_mid);
+        filter: drop-shadow(-1px 5px 4px $grey_light);
         // background: $redorange;
     }
 }

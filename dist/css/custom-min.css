@@ -387,8 +387,8 @@ summary {
   left: calc(20vw - 70px);
   width: 60px;
   height: 60px;
-  color: #cc3600;
-  background: transparent;
+  color: white;
+  background: #cc3600;
   font-size: 2em;
   font-weight: 700;
   border: 2px solid;
@@ -770,6 +770,7 @@ footer {
     width: 82px;
     border: none;
     border-radius: 0 4px 0 0;
+    color: #cc3600;
     background: whitesmoke;
   }
 

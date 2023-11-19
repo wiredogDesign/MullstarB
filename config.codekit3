@@ -7,7 +7,7 @@
       "uuidString" : "45585329-59A5-4F24-B907-17FD6F63047E"
     }
   ],
-  "creatorBuild" : "34214",
+  "creatorBuild" : "34264",
   "files" : {
     "\/_assets\/gfx" : {
       "ft" : 65536,
@@ -42,12 +42,6 @@
       "oF" : 2,
       "sC" : 0,
       "tS" : 0
-    },
-    "\/_assets\/mavo" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/_assets\/mavo",
-      "oF" : 0
     },
     "\/_assets\/scss\/_contact.scss" : {
       "aP" : 0,
@@ -142,7 +136,7 @@
     "\/_assets\/scss\/custom.scss" : {
       "aP" : 0,
       "bl" : 0,
-      "co" : 0,
+      "co" : 1,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -150,7 +144,7 @@
       "oA" : 0,
       "oAP" : "\/dist\/css\/custom-min.css",
       "oF" : 2,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -287,17 +281,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dist\/js\/yall-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/js\/yall-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/dist\/sfx" : {
       "ft" : 65536,
       "oA" : 1,
@@ -418,7 +401,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 642671273.451805,
-    "displayValue" : "MullstarB",
+    "displayValue" : "Mullstar",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/favicons\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
@@ -1568,6 +1551,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,

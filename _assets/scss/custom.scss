@@ -1,6 +1,10 @@
 @import "theme";
 @import "reset";
 
+:root {
+    overscroll-behavior: none;
+}
+
 body {
     width: 100vw;
     min-height: 100vh;
